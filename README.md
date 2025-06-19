@@ -1,6 +1,6 @@
 # HEIC to JPG Converter
 
-This Node.js script converts all HEIC images in the `images` folder to JPG format, saving the results in the `jpg` output folder.
+This Node.js script converts all HEIC images in the `heic` folder to JPG format, saving the results in the `jpg` output folder.
 
 ## Features
 - Converts all `.heic` files in the input directory to `.jpg`.
@@ -19,7 +19,7 @@ This Node.js script converts all HEIC images in the `images` folder to JPG forma
    ```
 
 ## Usage
-1. Place your `.heic` files in the `images` folder (create it if it doesn't exist).
+1. Place your `.heic` files in the `heic` folder (create it if it doesn't exist).
 2. Run the script:
    ```bash
    node convert-heic-to-jpg.js
